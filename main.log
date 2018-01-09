@@ -1,2 +1,50 @@
-2017-12-04 15:56 root         DEBUG   
-hello world
+2017-12-26 16:49 PIL.PngImagePlugin DEBUG   
+STREAM b'IHDR' 16 13
+2017-12-26 16:49 PIL.PngImagePlugin DEBUG   
+STREAM b'IDAT' 41 8192
+2017-12-26 16:49 PIL.PngImagePlugin DEBUG   
+STREAM b'IHDR' 16 13
+2017-12-26 16:49 PIL.PngImagePlugin DEBUG   
+STREAM b'IDAT' 41 8192
+2017-12-26 16:49 root         DEBUG   
+init
+2017-12-26 16:49 root         DEBUG   
+npy file loaded
+2017-12-26 16:49 root         DEBUG   
+layer name = conv1_1 and shape = (3, 3, 3, 64)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv1_2 and shape = (3, 3, 64, 64)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv2_1 and shape = (3, 3, 64, 128)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv2_2 and shape = (3, 3, 128, 128)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv3_1 and shape = (3, 3, 128, 256)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv3_2 and shape = (3, 3, 256, 256)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv3_3 and shape = (3, 3, 256, 256)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv4_1 and shape = (3, 3, 256, 512)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv4_2 and shape = (3, 3, 512, 512)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv4_3 and shape = (3, 3, 512, 512)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv5_1 and shape = (3, 3, 512, 512)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv5_2 and shape = (3, 3, 512, 512)
+2017-12-26 16:49 root         DEBUG   
+layer name = conv5_3 and shape = (3, 3, 512, 512)
+2017-12-26 16:49 tensorflow   INFO    
+Restoring parameters from model\fcn-0
+2017-12-26 16:49 root         DEBUG   
+restoring model is completed
+2017-12-26 16:49 root         ERROR   
+data_x has run out
+2017-12-26 16:49 root         DEBUG   
+accuracy in batch 0 in = 47.418808
+2017-12-26 16:49 root         DEBUG   
+prediction has been over
+2017-12-26 16:49 root         DEBUG   
+test time = 6.371563911437988

@@ -1,0 +1,7 @@
+2017-12-25 23:17 tensorflow   DEBUG   
+Tensor("Slice:0", shape=(2, 2), dtype=int32)
+2017-12-25 23:17 tensorflow   DEBUG   
+yooo
+2017-12-25 23:17 tensorflow   DEBUG   
+[[1 2]
+ [4 5]]
