@@ -1,0 +1,930 @@
+2018-01-12 15:30 root         INFO    
+imgs shape = (30, 816, 1232, 3)
+2018-01-12 15:30 root         INFO    
+truth_imgs shape = (30, 816, 1232, 1)
+2018-01-12 15:31 root         INFO    
+training wounds has total_batch = 30
+2018-01-12 15:31 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 0 = 0.275840
+2018-01-12 15:31 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 0 = 0.227814
+2018-01-12 15:31 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 0 = 0.194803
+2018-01-12 15:31 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 0 = 0.221421
+2018-01-12 15:31 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 0 = 0.220505
+2018-01-12 15:31 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 0 = 0.315251
+2018-01-12 15:31 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 0 = 0.314027
+2018-01-12 15:31 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 0 = 0.249502
+2018-01-12 15:31 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 0 = 0.224088
+2018-01-12 15:31 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 0 = 0.243326
+2018-01-12 15:31 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 0 = 0.246408
+2018-01-12 15:31 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 0 = 0.359735
+2018-01-12 15:32 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 0 = 0.147050
+2018-01-12 15:32 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 0 = 0.225997
+2018-01-12 15:32 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 0 = 0.207667
+2018-01-12 15:32 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 0 = 0.193855
+2018-01-12 15:32 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 0 = 0.219979
+2018-01-12 15:32 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 0 = 0.237369
+2018-01-12 15:32 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 0 = 0.254671
+2018-01-12 15:32 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 0 = 0.224211
+2018-01-12 15:32 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 0 = 0.199624
+2018-01-12 15:32 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 0 = 0.232210
+2018-01-12 15:32 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 0 = 0.224687
+2018-01-12 15:32 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 0 = 0.296653
+2018-01-12 15:32 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 0 = 0.228772
+2018-01-12 15:32 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 0 = 0.224733
+2018-01-12 15:32 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 0 = 0.228482
+2018-01-12 15:33 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 0 = 0.115661
+2018-01-12 15:33 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 0 = 0.213656
+2018-01-12 15:33 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 0 = 0.227396
+2018-01-12 15:33 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 0 = 0.200018
+2018-01-12 15:33 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 0 = 0.212180
+2018-01-12 15:33 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 0 = 0.260459
+2018-01-12 15:33 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 0 = 0.201169
+2018-01-12 15:33 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 0 = 0.210971
+2018-01-12 15:33 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 0 = 0.224859
+2018-01-12 15:33 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 0 = 0.174498
+2018-01-12 15:33 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 0 = 0.207959
+2018-01-12 15:33 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 0 = 0.220743
+2018-01-12 15:33 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 0 = 0.158212
+2018-01-12 15:33 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 0 = 0.204227
+2018-01-12 15:33 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 0 = 0.188049
+2018-01-12 15:34 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 0 = 0.238293
+2018-01-12 15:34 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 0 = 0.206271
+2018-01-12 15:34 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 0 = 0.151771
+2018-01-12 15:34 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:34 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 1 = 0.120318
+2018-01-12 15:34 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 1 = 0.200745
+2018-01-12 15:34 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 1 = 0.130058
+2018-01-12 15:34 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 1 = 0.108796
+2018-01-12 15:34 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 1 = 0.195166
+2018-01-12 15:34 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 1 = 0.225015
+2018-01-12 15:34 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 1 = 0.218600
+2018-01-12 15:34 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 1 = 0.196369
+2018-01-12 15:34 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 1 = 0.134373
+2018-01-12 15:34 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 1 = 0.151978
+2018-01-12 15:34 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 1 = 0.193970
+2018-01-12 15:35 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 1 = 0.240593
+2018-01-12 15:35 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 1 = 0.099625
+2018-01-12 15:35 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 1 = 0.189198
+2018-01-12 15:35 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 1 = 0.133930
+2018-01-12 15:35 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 1 = 0.117847
+2018-01-12 15:35 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 1 = 0.185746
+2018-01-12 15:35 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 1 = 0.156524
+2018-01-12 15:35 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 1 = 0.177338
+2018-01-12 15:35 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 1 = 0.185307
+2018-01-12 15:35 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 1 = 0.125792
+2018-01-12 15:35 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 1 = 0.175277
+2018-01-12 15:35 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 1 = 0.184791
+2018-01-12 15:35 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 1 = 0.197605
+2018-01-12 15:35 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 1 = 0.188822
+2018-01-12 15:35 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 1 = 0.184927
+2018-01-12 15:36 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 1 = 0.207819
+2018-01-12 15:36 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 1 = 0.086650
+2018-01-12 15:36 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 1 = 0.180979
+2018-01-12 15:36 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 1 = 0.172306
+2018-01-12 15:36 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 1 = 0.163935
+2018-01-12 15:36 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 1 = 0.180294
+2018-01-12 15:36 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 1 = 0.198916
+2018-01-12 15:36 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 1 = 0.171536
+2018-01-12 15:36 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 1 = 0.179949
+2018-01-12 15:36 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 1 = 0.163899
+2018-01-12 15:36 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 1 = 0.144434
+2018-01-12 15:36 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 1 = 0.178655
+2018-01-12 15:36 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 1 = 0.178022
+2018-01-12 15:36 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 1 = 0.109836
+2018-01-12 15:36 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 1 = 0.176234
+2018-01-12 15:37 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 1 = 0.161823
+2018-01-12 15:37 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 1 = 0.178007
+2018-01-12 15:37 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 1 = 0.176258
+2018-01-12 15:37 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 1 = 0.102135
+2018-01-12 15:37 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:37 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 2 = 0.089446
+2018-01-12 15:37 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 2 = 0.173450
+2018-01-12 15:37 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 2 = 0.119484
+2018-01-12 15:37 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 2 = 0.076594
+2018-01-12 15:37 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 2 = 0.170408
+2018-01-12 15:37 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 2 = 0.196198
+2018-01-12 15:37 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 2 = 0.182225
+2018-01-12 15:37 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 2 = 0.170708
+2018-01-12 15:37 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 2 = 0.097057
+2018-01-12 15:38 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 2 = 0.132275
+2018-01-12 15:38 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 2 = 0.169546
+2018-01-12 15:38 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 2 = 0.195554
+2018-01-12 15:38 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 2 = 0.082792
+2018-01-12 15:38 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 2 = 0.167044
+2018-01-12 15:38 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 2 = 0.103381
+2018-01-12 15:38 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 2 = 0.091407
+2018-01-12 15:38 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 2 = 0.164924
+2018-01-12 15:38 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 2 = 0.136131
+2018-01-12 15:38 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 2 = 0.151453
+2018-01-12 15:38 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 2 = 0.164483
+2018-01-12 15:38 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 2 = 0.105406
+2018-01-12 15:38 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 2 = 0.154273
+2018-01-12 15:38 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 2 = 0.164199
+2018-01-12 15:38 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 2 = 0.159077
+2018-01-12 15:39 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 2 = 0.180441
+2018-01-12 15:39 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 2 = 0.164608
+2018-01-12 15:39 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 2 = 0.195299
+2018-01-12 15:39 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 2 = 0.076165
+2018-01-12 15:39 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 2 = 0.162388
+2018-01-12 15:39 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 2 = 0.151461
+2018-01-12 15:39 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 2 = 0.151415
+2018-01-12 15:39 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 2 = 0.162110
+2018-01-12 15:39 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 2 = 0.170273
+2018-01-12 15:39 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 2 = 0.159427
+2018-01-12 15:39 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 2 = 0.162041
+2018-01-12 15:39 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 2 = 0.146699
+2018-01-12 15:39 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 2 = 0.125484
+2018-01-12 15:39 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 2 = 0.161142
+2018-01-12 15:40 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 2 = 0.166763
+2018-01-12 15:40 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 2 = 0.083900
+2018-01-12 15:40 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 2 = 0.159345
+2018-01-12 15:40 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 2 = 0.152987
+2018-01-12 15:40 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 2 = 0.158876
+2018-01-12 15:40 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 2 = 0.159321
+2018-01-12 15:40 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 2 = 0.087317
+2018-01-12 15:40 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:40 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 3 = 0.086817
+2018-01-12 15:40 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 3 = 0.157744
+2018-01-12 15:40 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 3 = 0.114323
+2018-01-12 15:40 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 3 = 0.063936
+2018-01-12 15:40 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 3 = 0.155743
+2018-01-12 15:40 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 3 = 0.183835
+2018-01-12 15:40 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 3 = 0.165323
+2018-01-12 15:40 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 3 = 0.155934
+2018-01-12 15:41 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 3 = 0.088292
+2018-01-12 15:41 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 3 = 0.127992
+2018-01-12 15:41 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 3 = 0.155361
+2018-01-12 15:41 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 3 = 0.175455
+2018-01-12 15:41 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 3 = 0.069835
+2018-01-12 15:41 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 3 = 0.153630
+2018-01-12 15:41 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 3 = 0.088675
+2018-01-12 15:41 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 3 = 0.083509
+2018-01-12 15:41 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 3 = 0.152250
+2018-01-12 15:41 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 3 = 0.126160
+2018-01-12 15:41 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 3 = 0.136034
+2018-01-12 15:41 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 3 = 0.151933
+2018-01-12 15:41 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 3 = 0.096362
+2018-01-12 15:41 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 3 = 0.141895
+2018-01-12 15:42 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 3 = 0.151737
+2018-01-12 15:42 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 3 = 0.137945
+2018-01-12 15:42 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 3 = 0.175914
+2018-01-12 15:42 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 3 = 0.152179
+2018-01-12 15:42 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 3 = 0.183042
+2018-01-12 15:42 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 3 = 0.068663
+2018-01-12 15:42 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 3 = 0.150657
+2018-01-12 15:42 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 3 = 0.142690
+2018-01-12 15:42 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 3 = 0.142368
+2018-01-12 15:42 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 3 = 0.150506
+2018-01-12 15:42 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 3 = 0.156068
+2018-01-12 15:42 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 3 = 0.152284
+2018-01-12 15:42 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 3 = 0.150535
+2018-01-12 15:42 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 3 = 0.137778
+2018-01-12 15:43 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 3 = 0.115826
+2018-01-12 15:43 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 3 = 0.149932
+2018-01-12 15:43 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 3 = 0.160518
+2018-01-12 15:43 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 3 = 0.068123
+2018-01-12 15:43 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 3 = 0.148536
+2018-01-12 15:43 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 3 = 0.148777
+2018-01-12 15:43 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 3 = 0.146718
+2018-01-12 15:43 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 3 = 0.148500
+2018-01-12 15:43 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 3 = 0.081269
+2018-01-12 15:43 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:43 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 4 = 0.086735
+2018-01-12 15:43 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 4 = 0.147486
+2018-01-12 15:43 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 4 = 0.110294
+2018-01-12 15:43 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 4 = 0.057992
+2018-01-12 15:43 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 4 = 0.146041
+2018-01-12 15:44 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 4 = 0.176906
+2018-01-12 15:44 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 4 = 0.154149
+2018-01-12 15:44 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 4 = 0.146160
+2018-01-12 15:44 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 4 = 0.083758
+2018-01-12 15:44 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 4 = 0.126928
+2018-01-12 15:44 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 4 = 0.145859
+2018-01-12 15:44 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 4 = 0.165936
+2018-01-12 15:44 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 4 = 0.064170
+2018-01-12 15:44 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 4 = 0.144600
+2018-01-12 15:44 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 4 = 0.077680
+2018-01-12 15:44 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 4 = 0.080447
+2018-01-12 15:44 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 4 = 0.143627
+2018-01-12 15:44 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 4 = 0.116920
+2018-01-12 15:44 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 4 = 0.128996
+2018-01-12 15:44 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 4 = 0.143402
+2018-01-12 15:45 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 4 = 0.095216
+2018-01-12 15:45 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 4 = 0.138777
+2018-01-12 15:45 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 4 = 0.143332
+2018-01-12 15:45 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 4 = 0.125724
+2018-01-12 15:45 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 4 = 0.172436
+2018-01-12 15:45 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 4 = 0.143753
+2018-01-12 15:45 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 4 = 0.179107
+2018-01-12 15:45 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 4 = 0.066401
+2018-01-12 15:45 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 4 = 0.142647
+2018-01-12 15:45 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 4 = 0.138761
+2018-01-12 15:45 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 4 = 0.139063
+2018-01-12 15:45 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 4 = 0.142595
+2018-01-12 15:45 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 4 = 0.152066
+2018-01-12 15:45 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 4 = 0.150532
+2018-01-12 15:45 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 4 = 0.142705
+2018-01-12 15:46 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 4 = 0.132850
+2018-01-12 15:46 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 4 = 0.111884
+2018-01-12 15:46 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 4 = 0.142281
+2018-01-12 15:46 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 4 = 0.157447
+2018-01-12 15:46 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 4 = 0.059691
+2018-01-12 15:46 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 4 = 0.141159
+2018-01-12 15:46 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 4 = 0.146910
+2018-01-12 15:46 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 4 = 0.140915
+2018-01-12 15:46 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 4 = 0.141154
+2018-01-12 15:46 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 4 = 0.079665
+2018-01-12 15:46 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:46 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 5 = 0.085527
+2018-01-12 15:46 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 5 = 0.140420
+2018-01-12 15:46 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 5 = 0.108813
+2018-01-12 15:46 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 5 = 0.055580
+2018-01-12 15:47 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 5 = 0.139317
+2018-01-12 15:47 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 5 = 0.170670
+2018-01-12 15:47 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 5 = 0.148601
+2018-01-12 15:47 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 5 = 0.139431
+2018-01-12 15:47 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 5 = 0.081027
+2018-01-12 15:47 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 5 = 0.127148
+2018-01-12 15:47 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 5 = 0.139276
+2018-01-12 15:47 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 5 = 0.160761
+2018-01-12 15:47 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 5 = 0.061138
+2018-01-12 15:47 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 5 = 0.138298
+2018-01-12 15:47 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 5 = 0.076565
+2018-01-12 15:47 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 5 = 0.079390
+2018-01-12 15:47 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 5 = 0.137571
+2018-01-12 15:47 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 5 = 0.115719
+2018-01-12 15:48 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 5 = 0.123705
+2018-01-12 15:48 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 5 = 0.137399
+2018-01-12 15:48 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 5 = 0.095415
+2018-01-12 15:48 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 5 = 0.136806
+2018-01-12 15:48 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 5 = 0.137392
+2018-01-12 15:48 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 5 = 0.121012
+2018-01-12 15:48 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 5 = 0.170799
+2018-01-12 15:48 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 5 = 0.137789
+2018-01-12 15:48 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 5 = 0.176754
+2018-01-12 15:48 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 5 = 0.065219
+2018-01-12 15:48 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 5 = 0.136935
+2018-01-12 15:48 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 5 = 0.136973
+2018-01-12 15:48 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 5 = 0.136094
+2018-01-12 15:48 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 5 = 0.136924
+2018-01-12 15:48 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 5 = 0.149647
+2018-01-12 15:49 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 5 = 0.149160
+2018-01-12 15:49 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 5 = 0.137064
+2018-01-12 15:49 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 5 = 0.130521
+2018-01-12 15:49 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 5 = 0.108571
+2018-01-12 15:49 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 5 = 0.136739
+2018-01-12 15:49 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 5 = 0.153511
+2018-01-12 15:49 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 5 = 0.051935
+2018-01-12 15:49 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 5 = 0.135783
+2018-01-12 15:49 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 5 = 0.145351
+2018-01-12 15:49 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 5 = 0.137944
+2018-01-12 15:49 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 5 = 0.135806
+2018-01-12 15:49 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 5 = 0.079010
+2018-01-12 15:49 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:49 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 6 = 0.083166
+2018-01-12 15:49 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 6 = 0.135227
+2018-01-12 15:50 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 6 = 0.106896
+2018-01-12 15:50 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 6 = 0.054052
+2018-01-12 15:50 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 6 = 0.134344
+2018-01-12 15:50 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 6 = 0.167293
+2018-01-12 15:50 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 6 = 0.144751
+2018-01-12 15:50 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 6 = 0.134454
+2018-01-12 15:50 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 6 = 0.078474
+2018-01-12 15:50 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 6 = 0.126920
+2018-01-12 15:50 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 6 = 0.134373
+2018-01-12 15:50 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 6 = 0.157125
+2018-01-12 15:50 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 6 = 0.058768
+2018-01-12 15:50 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 6 = 0.133575
+2018-01-12 15:50 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 6 = 0.075458
+2018-01-12 15:50 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 6 = 0.079362
+2018-01-12 15:50 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 6 = 0.133010
+2018-01-12 15:51 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 6 = 0.114707
+2018-01-12 15:51 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 6 = 0.120528
+2018-01-12 15:51 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 6 = 0.132880
+2018-01-12 15:51 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 6 = 0.095599
+2018-01-12 15:51 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 6 = 0.135862
+2018-01-12 15:51 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 6 = 0.132909
+2018-01-12 15:51 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 6 = 0.115392
+2018-01-12 15:51 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 6 = 0.169736
+2018-01-12 15:51 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 6 = 0.133281
+2018-01-12 15:51 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 6 = 0.173350
+2018-01-12 15:51 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 6 = 0.064269
+2018-01-12 15:51 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 6 = 0.132590
+2018-01-12 15:51 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 6 = 0.135505
+2018-01-12 15:51 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 6 = 0.135223
+2018-01-12 15:51 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 6 = 0.132616
+2018-01-12 15:52 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 6 = 0.146326
+2018-01-12 15:52 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 6 = 0.147467
+2018-01-12 15:52 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 6 = 0.132761
+2018-01-12 15:52 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 6 = 0.129509
+2018-01-12 15:52 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 6 = 0.106240
+2018-01-12 15:52 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 6 = 0.132502
+2018-01-12 15:52 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 6 = 0.150831
+2018-01-12 15:52 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 6 = 0.047723
+2018-01-12 15:52 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 6 = 0.131686
+2018-01-12 15:52 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 6 = 0.144150
+2018-01-12 15:52 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 6 = 0.135611
+2018-01-12 15:52 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 6 = 0.131722
+2018-01-12 15:52 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 6 = 0.077990
+2018-01-12 15:52 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:52 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 7 = 0.081220
+2018-01-12 15:53 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 7 = 0.131244
+2018-01-12 15:53 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 7 = 0.105235
+2018-01-12 15:53 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 7 = 0.053490
+2018-01-12 15:53 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 7 = 0.130518
+2018-01-12 15:53 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 7 = 0.164268
+2018-01-12 15:53 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 7 = 0.141028
+2018-01-12 15:53 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 7 = 0.130614
+2018-01-12 15:53 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 7 = 0.076476
+2018-01-12 15:53 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 7 = 0.126144
+2018-01-12 15:53 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 7 = 0.130573
+2018-01-12 15:53 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 7 = 0.155706
+2018-01-12 15:53 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 7 = 0.054155
+2018-01-12 15:53 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 7 = 0.129877
+2018-01-12 15:53 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 7 = 0.074760
+2018-01-12 15:54 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 7 = 0.079326
+2018-01-12 15:54 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 7 = 0.129422
+2018-01-12 15:54 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 7 = 0.113679
+2018-01-12 15:54 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 7 = 0.117751
+2018-01-12 15:54 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 7 = 0.129317
+2018-01-12 15:54 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 7 = 0.095773
+2018-01-12 15:54 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 7 = 0.134842
+2018-01-12 15:54 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 7 = 0.129366
+2018-01-12 15:54 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 7 = 0.113531
+2018-01-12 15:54 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 7 = 0.168452
+2018-01-12 15:54 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 7 = 0.129708
+2018-01-12 15:54 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 7 = 0.169821
+2018-01-12 15:54 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 7 = 0.063863
+2018-01-12 15:54 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 7 = 0.129136
+2018-01-12 15:54 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 7 = 0.135302
+2018-01-12 15:55 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 7 = 0.135385
+2018-01-12 15:55 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 7 = 0.129190
+2018-01-12 15:55 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 7 = 0.145637
+2018-01-12 15:55 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 7 = 0.146311
+2018-01-12 15:55 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 7 = 0.129336
+2018-01-12 15:55 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 7 = 0.128806
+2018-01-12 15:55 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 7 = 0.104673
+2018-01-12 15:55 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 7 = 0.129126
+2018-01-12 15:55 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 7 = 0.149292
+2018-01-12 15:55 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 7 = 0.046399
+2018-01-12 15:55 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 7 = 0.128431
+2018-01-12 15:55 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 7 = 0.143439
+2018-01-12 15:55 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 7 = 0.133420
+2018-01-12 15:55 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 7 = 0.128472
+2018-01-12 15:55 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 7 = 0.077771
+2018-01-12 15:56 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:56 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 8 = 0.079099
+2018-01-12 15:56 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 8 = 0.128063
+2018-01-12 15:56 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 8 = 0.104774
+2018-01-12 15:56 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 8 = 0.053363
+2018-01-12 15:56 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 8 = 0.127451
+2018-01-12 15:56 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 8 = 0.163663
+2018-01-12 15:56 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 8 = 0.139015
+2018-01-12 15:56 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 8 = 0.127544
+2018-01-12 15:56 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 8 = 0.075932
+2018-01-12 15:56 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 8 = 0.126319
+2018-01-12 15:56 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 8 = 0.127534
+2018-01-12 15:56 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 8 = 0.154692
+2018-01-12 15:56 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 8 = 0.053176
+2018-01-12 15:56 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 8 = 0.126939
+2018-01-12 15:57 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 8 = 0.074596
+2018-01-12 15:57 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 8 = 0.079299
+2018-01-12 15:57 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 8 = 0.126560
+2018-01-12 15:57 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 8 = 0.113064
+2018-01-12 15:57 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 8 = 0.116624
+2018-01-12 15:57 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 8 = 0.126482
+2018-01-12 15:57 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 8 = 0.095786
+2018-01-12 15:57 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 8 = 0.134635
+2018-01-12 15:57 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 8 = 0.126545
+2018-01-12 15:57 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 8 = 0.112330
+2018-01-12 15:57 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 8 = 0.167827
+2018-01-12 15:57 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 8 = 0.126865
+2018-01-12 15:57 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 8 = 0.169015
+2018-01-12 15:57 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 8 = 0.063842
+2018-01-12 15:57 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 8 = 0.126380
+2018-01-12 15:58 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 8 = 0.135249
+2018-01-12 15:58 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 8 = 0.135912
+2018-01-12 15:58 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 8 = 0.126453
+2018-01-12 15:58 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 8 = 0.145526
+2018-01-12 15:58 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 8 = 0.145547
+2018-01-12 15:58 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 8 = 0.126598
+2018-01-12 15:58 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 8 = 0.128292
+2018-01-12 15:58 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 8 = 0.104126
+2018-01-12 15:58 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 8 = 0.126428
+2018-01-12 15:58 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 8 = 0.148782
+2018-01-12 15:58 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 8 = 0.045390
+2018-01-12 15:58 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 8 = 0.125824
+2018-01-12 15:58 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 8 = 0.142881
+2018-01-12 15:58 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 8 = 0.132426
+2018-01-12 15:58 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 8 = 0.125872
+2018-01-12 15:59 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 8 = 0.077782
+2018-01-12 15:59 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 15:59 root         INFO    
+loss val in batch 0 in training_data 0 in epoch 9 = 0.077761
+2018-01-12 15:59 root         INFO    
+accuracy in batch 0 in training_data 0 in epoch 9 = 0.125518
+2018-01-12 15:59 root         INFO    
+loss val in batch 1 in training_data 0 in epoch 9 = 0.104417
+2018-01-12 15:59 root         INFO    
+loss val in batch 2 in training_data 0 in epoch 9 = 0.053253
+2018-01-12 15:59 root         INFO    
+accuracy in batch 2 in training_data 0 in epoch 9 = 0.124991
+2018-01-12 15:59 root         INFO    
+loss val in batch 3 in training_data 0 in epoch 9 = 0.163285
+2018-01-12 15:59 root         INFO    
+loss val in batch 4 in training_data 0 in epoch 9 = 0.136316
+2018-01-12 15:59 root         INFO    
+accuracy in batch 4 in training_data 0 in epoch 9 = 0.125072
+2018-01-12 15:59 root         INFO    
+loss val in batch 5 in training_data 0 in epoch 9 = 0.075222
+2018-01-12 15:59 root         INFO    
+loss val in batch 6 in training_data 0 in epoch 9 = 0.126499
+2018-01-12 15:59 root         INFO    
+accuracy in batch 6 in training_data 0 in epoch 9 = 0.125082
+2018-01-12 15:59 root         INFO    
+loss val in batch 7 in training_data 0 in epoch 9 = 0.154053
+2018-01-12 16:00 root         INFO    
+loss val in batch 8 in training_data 0 in epoch 9 = 0.052218
+2018-01-12 16:00 root         INFO    
+accuracy in batch 8 in training_data 0 in epoch 9 = 0.124561
+2018-01-12 16:00 root         INFO    
+loss val in batch 9 in training_data 0 in epoch 9 = 0.074500
+2018-01-12 16:00 root         INFO    
+loss val in batch 10 in training_data 0 in epoch 9 = 0.079277
+2018-01-12 16:00 root         INFO    
+accuracy in batch 10 in training_data 0 in epoch 9 = 0.124240
+2018-01-12 16:00 root         INFO    
+loss val in batch 11 in training_data 0 in epoch 9 = 0.112848
+2018-01-12 16:00 root         INFO    
+loss val in batch 12 in training_data 0 in epoch 9 = 0.115481
+2018-01-12 16:00 root         INFO    
+accuracy in batch 12 in training_data 0 in epoch 9 = 0.124178
+2018-01-12 16:00 root         INFO    
+loss val in batch 13 in training_data 0 in epoch 9 = 0.095796
+2018-01-12 16:00 root         INFO    
+loss val in batch 14 in training_data 0 in epoch 9 = 0.134441
+2018-01-12 16:00 root         INFO    
+accuracy in batch 14 in training_data 0 in epoch 9 = 0.124250
+2018-01-12 16:00 root         INFO    
+loss val in batch 15 in training_data 0 in epoch 9 = 0.111440
+2018-01-12 16:00 root         INFO    
+loss val in batch 16 in training_data 0 in epoch 9 = 0.167457
+2018-01-12 16:00 root         INFO    
+accuracy in batch 16 in training_data 0 in epoch 9 = 0.124550
+2018-01-12 16:01 root         INFO    
+loss val in batch 17 in training_data 0 in epoch 9 = 0.168241
+2018-01-12 16:01 root         INFO    
+loss val in batch 18 in training_data 0 in epoch 9 = 0.063822
+2018-01-12 16:01 root         INFO    
+accuracy in batch 18 in training_data 0 in epoch 9 = 0.124131
+2018-01-12 16:01 root         INFO    
+loss val in batch 19 in training_data 0 in epoch 9 = 0.134914
+2018-01-12 16:01 root         INFO    
+loss val in batch 20 in training_data 0 in epoch 9 = 0.136654
+2018-01-12 16:01 root         INFO    
+accuracy in batch 20 in training_data 0 in epoch 9 = 0.124215
+2018-01-12 16:01 root         INFO    
+loss val in batch 21 in training_data 0 in epoch 9 = 0.145553
+2018-01-12 16:01 root         INFO    
+loss val in batch 22 in training_data 0 in epoch 9 = 0.145043
+2018-01-12 16:01 root         INFO    
+accuracy in batch 22 in training_data 0 in epoch 9 = 0.124357
+2018-01-12 16:01 root         INFO    
+loss val in batch 23 in training_data 0 in epoch 9 = 0.128085
+2018-01-12 16:01 root         INFO    
+loss val in batch 24 in training_data 0 in epoch 9 = 0.103676
+2018-01-12 16:01 root         INFO    
+accuracy in batch 24 in training_data 0 in epoch 9 = 0.124217
+2018-01-12 16:01 root         INFO    
+loss val in batch 25 in training_data 0 in epoch 9 = 0.148503
+2018-01-12 16:01 root         INFO    
+loss val in batch 26 in training_data 0 in epoch 9 = 0.045025
+2018-01-12 16:01 root         INFO    
+accuracy in batch 26 in training_data 0 in epoch 9 = 0.123685
+2018-01-12 16:02 root         INFO    
+loss val in batch 27 in training_data 0 in epoch 9 = 0.142698
+2018-01-12 16:02 root         INFO    
+loss val in batch 28 in training_data 0 in epoch 9 = 0.131955
+2018-01-12 16:02 root         INFO    
+accuracy in batch 28 in training_data 0 in epoch 9 = 0.123740
+2018-01-12 16:02 root         INFO    
+loss val in batch 29 in training_data 0 in epoch 9 = 0.077745
+2018-01-12 16:02 root         INFO    
+save the model file fcn in data\wound_model
+2018-01-12 16:02 root         INFO    
+training has done
+2018-01-12 16:02 root         INFO    
+training time = 1890.126267671585

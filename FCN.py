@@ -7,7 +7,8 @@ import inspect
 import os
 
 
-learning_rate = 0.0001
+learning_rate = 0.00001
+dropped_rate = 0.4
 
 
 class FCN16:
@@ -233,29 +234,49 @@ class FCN16:
 
         
         # deconv layers for VGG16 structure
-        self.deconv5_4 = self.deconv_layer(self.conv5_3, None, 512, 512, conv_f_h, conv_f_w, 'deconv5_4', debug, stride = 2, conv_shape = tf.shape(self.conv4_3))
+        self.deconv5_4 = self.deconv_layer(self.conv5_3, None, FCN16.n_filters[0], 512, conv_f_h, conv_f_w, 'deconv5_4', debug, stride = 2, conv_shape = tf.shape(self.conv4_3))
 
-        # self.deconv6_1 = self.deconv_layer(self.deconv5_4, None, 512, 512, conv_f_h, conv_f_w, 'deconv6_1', debug)
-        # self.deconv6_2 = self.deconv_layer(self.deconv6_1, None, 512, 512, conv_f_h, conv_f_w, 'deconv6_2', debug)
-        # self.deconv6_3 = self.deconv_layer(self.deconv6_2, None, 512, 512, conv_f_h, conv_f_w, 'deconv6_3', debug)
-        # self.deconv6_4 = self.deconv_layer(self.deconv6_3, None, 512, 512, conv_f_h, conv_f_w, 'deconv6_4', debug, stride = 2)
+        # self.deconv6_1 = self.deconv_layer(self.deconv5_4, None, FCN16.n_filters[0], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_1', debug)
+        # self.deconv6_2 = self.deconv_layer(self.deconv6_1, None, FCN16.n_filters[0], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_2', debug)
+        # self.deconv6_3 = self.deconv_layer(self.deconv6_2, None, FCN16.n_filters[0], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_3', debug)
+        # self.deconv6_4 = self.deconv_layer(self.deconv6_3, None, FCN16.n_filters[0], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_4', debug, stride = 2)
 
-        self.deconv6_1 = self.deconv_layer(self.deconv5_4, None, 512, 512, conv_f_h, conv_f_w, 'deconv6_1', debug)
-        self.deconv6_2 = self.deconv_layer(self.deconv6_1, None, 512, 512, conv_f_h, conv_f_w, 'deconv6_2', debug)
-        self.deconv6_3 = self.deconv_layer(self.deconv6_2, None, 256, 512, conv_f_h, conv_f_w, 'deconv6_3', debug)
-        self.deconv6_4 = self.deconv_layer(self.deconv6_3, None, 256, 256, conv_f_h, conv_f_w, 'deconv6_4', debug, stride = 2, conv_shape = tf.shape(self.conv3_3))
+        # self.deconv6_1 = self.deconv_layer(self.deconv5_4, None, FCN16.n_filters[0], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_1', debug)
+        # self.deconv6_2 = self.deconv_layer(self.deconv6_1, None, FCN16.n_filters[0], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_2', debug)
+        # self.deconv6_3 = self.deconv_layer(self.deconv6_2, None, FCN16.n_filters[1], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_3', debug)
+        # self.deconv6_4 = self.deconv_layer(self.deconv6_3, None, FCN16.n_filters[1], FCN16.n_filters[1], conv_f_h, conv_f_w, 'deconv6_4', debug, stride = 2, conv_shape = tf.shape(self.conv3_3))
 
-        self.deconv7_1 = self.deconv_layer(self.deconv6_4, None, 256, 256, conv_f_h, conv_f_w, 'deconv7_1', debug)
-        self.deconv7_2 = self.deconv_layer(self.deconv7_1, None, 256, 256, conv_f_h, conv_f_w, 'deconv7_2', debug)
-        self.deconv7_3 = self.deconv_layer(self.deconv7_2, None, 128, 256, conv_f_h, conv_f_w, 'deconv7_3', debug)
-        self.deconv7_4 = self.deconv_layer(self.deconv7_3, None, 128, 128, conv_f_h, conv_f_w, 'deconv7_4', debug, stride = 2, conv_shape = tf.shape(self.conv2_2))
+        # self.deconv6_1 = self.deconv_layer(self.deconv5_4, None, FCN16.n_filters[0], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_1', debug)
+        # self.deconv6_2 = self.deconv_layer(self.deconv6_1, None, FCN16.n_filters[0], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_2', debug)
+        self.deconv6_3 = self.deconv_layer(self.deconv5_4, None, FCN16.n_filters[1], FCN16.n_filters[0], conv_f_h, conv_f_w, 'deconv6_3', debug)
+        self.deconv6_4 = self.deconv_layer(self.deconv6_3, None, FCN16.n_filters[1], FCN16.n_filters[1], conv_f_h, conv_f_w, 'deconv6_4', debug, stride = 2, conv_shape = tf.shape(self.conv3_3))
+        if is_train:
+            self.deconv6_4 = tf.layers.dropout(self.deconv6_4, dropped_rate, name = 'dropout6')
 
-        self.deconv8_1 = self.deconv_layer(self.deconv7_4, None, 128, 128, conv_f_h, conv_f_w, 'deconv8_1', debug)
-        self.deconv8_2 = self.deconv_layer(self.deconv8_1, None, 64, 128, conv_f_h, conv_f_w, 'deconv8_2', debug)
-        self.deconv8_3 = self.deconv_layer(self.deconv8_2, None, 64, 64, conv_f_h, conv_f_w, 'deconv8_3', debug, stride = 2, conv_shape = tf.shape(self.conv1_2))
+        # self.deconv7_1 = self.deconv_layer(self.deconv6_4, None, FCN16.n_filters[1], FCN16.n_filters[1], conv_f_h, conv_f_w, 'deconv7_1', debug)
+        # self.deconv7_2 = self.deconv_layer(self.deconv7_1, None, FCN16.n_filters[1], FCN16.n_filters[1], conv_f_h, conv_f_w, 'deconv7_2', debug)
+        # self.deconv7_3 = self.deconv_layer(self.deconv7_2, None, FCN16.n_filters[2], FCN16.n_filters[1], conv_f_h, conv_f_w, 'deconv7_3', debug)
+        # self.deconv7_4 = self.deconv_layer(self.deconv7_3, None, FCN16.n_filters[2], FCN16.n_filters[2], conv_f_h, conv_f_w, 'deconv7_4', debug, stride = 2, conv_shape = tf.shape(self.conv2_2))
 
-        self.deconv9_1 = self.deconv_layer(self.deconv8_3, None, 64, 64, conv_f_h, conv_f_w, 'deconv9_1', debug)
-        self.conv9_2 = self.conv_layer(self.deconv9_1, [1, 1, 64, 1], conv_stride, 'conv9_2', debug, activation = 'sigmoid')
+        # self.deconv7_1 = self.deconv_layer(self.deconv6_4, None, FCN16.n_filters[1], FCN16.n_filters[1], conv_f_h, conv_f_w, 'deconv7_1', debug)
+        # self.deconv7_2 = self.deconv_layer(self.deconv7_1, None, FCN16.n_filters[1], FCN16.n_filters[1], conv_f_h, conv_f_w, 'deconv7_2', debug)
+        self.deconv7_3 = self.deconv_layer(self.deconv6_4, None, FCN16.n_filters[2], FCN16.n_filters[1], conv_f_h, conv_f_w, 'deconv7_3', debug)
+        self.deconv7_4 = self.deconv_layer(self.deconv7_3, None, FCN16.n_filters[2], FCN16.n_filters[2], conv_f_h, conv_f_w, 'deconv7_4', debug, stride = 2, conv_shape = tf.shape(self.conv2_2))
+        if is_train:
+            self.deconv7_4 = tf.layers.dropout(self.deconv7_4, dropped_rate, name = 'dropout7')
+        
+        # self.deconv8_1 = self.deconv_layer(self.deconv7_4, None, FCN16.n_filters[2], FCN16.n_filters[2], conv_f_h, conv_f_w, 'deconv8_1', debug)
+        # self.deconv8_2 = self.deconv_layer(self.deconv8_1, None, FCN16.n_filters[3], FCN16.n_filters[2], conv_f_h, conv_f_w, 'deconv8_2', debug)
+        # self.deconv8_3 = self.deconv_layer(self.deconv8_2, None, FCN16.n_filters[3], FCN16.n_filters[3], conv_f_h, conv_f_w, 'deconv8_3', debug, stride = 2, conv_shape = tf.shape(self.conv1_2))
+
+        # self.deconv8_1 = self.deconv_layer(self.deconv7_4, None, FCN16.n_filters[2], FCN16.n_filters[2], conv_f_h, conv_f_w, 'deconv8_1', debug)
+        self.deconv8_2 = self.deconv_layer(self.deconv7_4, None, FCN16.n_filters[3], FCN16.n_filters[2], conv_f_h, conv_f_w, 'deconv8_2', debug)
+        self.deconv8_3 = self.deconv_layer(self.deconv8_2, None, FCN16.n_filters[3], FCN16.n_filters[3], conv_f_h, conv_f_w, 'deconv8_3', debug, stride = 2, conv_shape = tf.shape(self.conv1_2))
+        if is_train:
+            self.deconv8_3 = tf.layers.dropout(self.deconv8_3, dropped_rate, name = 'dropout8')
+        
+        self.deconv9_1 = self.deconv_layer(self.deconv8_3, None, FCN16.n_filters[3], FCN16.n_filters[3], conv_f_h, conv_f_w, 'deconv9_1', debug)
+        self.conv9_2 = self.conv_layer(self.deconv9_1, [1, 1, FCN16.n_filters[3], FCN16.n_filters[4]], conv_stride, 'conv9_2', True, activation = 'sigmoid')
 
         # self.deconv9_2 = self.deconv_layer(self.deconv9_1, None, 1, 64, conv_f_h, conv_f_w, 'deconv9_2', debug)
         # self.deconv10_3 = self.deconv_layer(self.deconv9_2, None, 1, 1, conv_f_h, conv_f_w, 'deconv10_3', debug, stride = 2)
@@ -263,7 +284,7 @@ class FCN16:
 
         # self.sig10 = self.sig10 * 255.0
         # self.sig10 = tf.reshape(self.sig10)
-        self.conv9_2 = self.conv9_2 * 255.0
+        # self.conv9_2 = self.conv9_2 * 255.0
 
         # if debug:
         #     self.sig9 = tf.Print(self.sig9, [self.sig9],
@@ -276,7 +297,11 @@ class FCN16:
         # set accuracy function
         with tf.name_scope('accuracy') as scope:
             # accuracy = tf.reduce_mean(tf.cast(tf.abs(tf.reshape(self.conv9_2, [-1, 1]) - y), tf.float32))
-             accuracy = tf.reduce_mean(tf.cast(tf.abs(self.conv9_2 - y), tf.float32))
+            #  accuracy = tf.reduce_mean(tf.cast(tf.abs(self.conv9_2 - y), tf.float32))
+            
+            # what is update_op???
+            accuracy1, accuracy = tf.metrics.mean_squared_error(y, self.conv9_2)
+            # accuracy, update_op = tf.metrics.mean_squared_error(y, self.conv9_2)
 
         tf.add_to_collection('accuracy', accuracy)
 
@@ -285,6 +310,7 @@ class FCN16:
             # softmax_cross_entropy is not reasonable
             with tf.name_scope('loss') as scope:
                 # loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = self.conv9_2, labels = y))
+                # loss = tf.losses.softmax_cross_entropy()
                 loss = tf.losses.mean_squared_error(labels = y, predictions = self.conv9_2)
                 # tf.summary.scalar('loss', loss)
 
@@ -422,11 +448,11 @@ class FCN16:
             deconv = tf.nn.conv2d_transpose(bottom, weights, out_shape,
                                             strides = strides, padding = 'SAME')
 
-            t0 = tf.constant(stride)
-            t1 = tf.constant(2)
+            # t0 = tf.constant(stride)
+            # t1 = tf.constant(2)
 
-            if stride == 2:
-                deconv = tf.slice(deconv, [0, 0, 0, 0], conv_shape)
+            # if stride == 2:
+            #     deconv = tf.slice(deconv, [0, 0, 0, 0], conv_shape)
 
             # deconv = tf.cond(stride == 2, lambda: tf.slice(deconv, [0, 0, 0, 0], conv_shape), lambda: deconv)
             # deconv = tf.cond(tf.equal(t0, t1), lambda: tf.slice(deconv, [0, 0, 0, 0], conv_shape), lambda: deconv)
@@ -441,7 +467,7 @@ class FCN16:
 
             # deconv = deconv[pre_padding: len(deconv) - pre_padding, pre_padding: len(deconv[0]) - pre_padding]
 
-            d_shape = tf.shape(deconv)
+            # d_shape = tf.shape(deconv)
             # if stride == 1:
             #     deconv = tf.slice(deconv, [0, 1, 1, 0], [d_shape[0], d_shape[1] - 2, d_shape[2] - 2, d_shape[3]])
             # else:
@@ -487,39 +513,44 @@ class FCN16:
         n = name + '_conv_filter'
 
         if f_shape:
-            h = f_shape[0]
-            w = f_shape[1]
+            # h = f_shape[0]
+            # w = f_shape[1]
 
-            f = math.ceil(h / 2.0)
-            c = (2 * f - 1 - f % 2) / (2.0 * f)
-            bilinear = np.zeros([h, w])
-            for y in range(h):
-                for x in range(w):
-                    value = (1 - abs(x / f - c)) * (1 - abs(y / f - c))
-                    bilinear[x, y] = value
+            # f = math.ceil(h / 2.0)
+            # c = (2 * f - 1 - f % 2) / (2.0 * f)
+            # bilinear = np.zeros([h, w])
+            # for y in range(h):
+            #     for x in range(w):
+            #         value = (1 - abs(x / f - c)) * (1 - abs(y / f - c))
+            #         bilinear[x, y] = value
             
-            filter = np.zeros(f_shape)
+            # filter = np.zeros(f_shape)
 
-            shape_len = f_shape[2] if f_shape[2] < f_shape[3] else f_shape[3]
-            for i in range(shape_len):
-                filter[:, :, i, i] = bilinear
+            # shape_len = f_shape[2] if f_shape[2] < f_shape[3] else f_shape[3]
+            # for i in range(shape_len):
+            #     filter[:, :, i, i] = bilinear
 
-            init = tf.constant_initializer(value = filter, dtype = tf.float32)
+            # init = tf.constant_initializer(value = filter, dtype = tf.float32)
 
-            return tf.get_variable(name = n, initializer = init, shape = filter.shape)
+            # return tf.get_variable(name = n, initializer = init, shape = filter.shape)
+
+            # random initialization
+            # dtype = tf.float32 and use tf.glorot_unifrom_initializer by default
+            return tf.get_variable(name = n, shape = f_shape, dtype = tf.float32)
         else:
             init = tf.constant_initializer(value = self.data_dict[name][0], dtype = tf.float32)
 
             shape = self.data_dict[name][0].shape
             logging.debug('layer name = %s and shape = %s' % (name, str(shape)))
 
-            var = tf.get_variable(name = n, initializer = init, shape = shape)
+            var = tf.get_variable(name = n, shape = shape, initializer = init)
 
             if not tf.get_variable_scope().reuse:
-                weight_decay = tf.multiply(tf.nn.l2_loss(var), self.wd, name = 'weight_loss')
+                # weight decay useful ??
+                weight_decay = tf.multiply(tf.nn.l2_loss(var), self.wd, name = name + '_weight_loss')
                 
                 tf.add_to_collection(tf.GraphKeys.REGULARIZATION_LOSSES, weight_decay)
-
+            
             if debug:
                 # weight_decay = tf.Print(weight_decay, [tf.shape(weight_decay)],
                 #                         message = 'shape of %s = ' % name,
@@ -554,9 +585,10 @@ class FCN16:
         else:
             shape = [f_shape[3]]
 
-            init = tf.constant_initializer(value = np.zeros(shape), dtype = tf.float32)
+            # init = tf.constant_initializer(value = np.zeros(shape), dtype = tf.float32)
         
-            var = tf.get_variable(name = n, initializer = init, shape = shape)
+            # var = tf.get_variable(name = n, initializer = init, shape = shape)
+            var = tf.get_variable(name = n, shape = shape, dtype = tf.float32)
 
         if debug:
             var = self.print_tensor(var, n)
@@ -585,7 +617,7 @@ class FCN16:
 
         init = tf.constant_initializer(value = weights, dtype = tf.float32)
 
-        var = tf.get_variable(name = n, initializer = init, shape = weights.shape)
+        var = tf.get_variable(name = n, shape = weights.shape, initializer = init)
 
         if debug:
             var = self.print_tensor(var, n)
@@ -601,6 +633,10 @@ class FCN16:
                                 message = 'value of %s = ' % name)
         
         return tensor
+    
+    n_filters = [128, 64, 32, 8, 1]
+    deconv_activation = 'relu'
+    dropped_rate = 0.4
 
 def activation_summary(x):
     name = x.op.name

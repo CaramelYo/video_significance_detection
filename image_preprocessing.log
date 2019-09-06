@@ -1,0 +1,6 @@
+2018-01-19 10:49 root         INFO    
+imgs shape = (30, 400, 608, 3)
+2018-01-19 10:49 root         INFO    
+truth_imgs shape = (30, 400, 608, 1)
+2018-01-19 10:49 root         INFO    
+seed = 9
